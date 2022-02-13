@@ -1,0 +1,28 @@
+{
+  "location": [
+    {
+      "id": "1",
+      "address": "Av. Juan Villareal",
+      "description": "Near to the campus of the University of Buenos Aires",
+      "image": "/src/assets/img/location-image-1.jpg"
+    },
+    {
+      "id": "2",
+      "address": "Av. Paseo Colón",
+      "description": "Near to the campus of the University of Buenos Aires",
+      "image": "/src/assets/img/location-image-2.jpg"
+    },
+    {
+      "id": "3",
+      "address": "Av. San Martín",
+      "description": "Near to the campus of the University of Buenos Aires",
+      "image": "/src/assets/img/location-image-3.jpg"
+    },
+    {
+      "id": "4",
+      "address": "Av. Artigas",
+      "description": "Near to the campus of the University of Buenos Aires",
+      "image": "/src/assets/img/location-image-4.jpg"
+    }
+  ]
+}
