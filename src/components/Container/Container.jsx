@@ -4,7 +4,9 @@ import React from 'react'
 /* **************** Variables **************** */
 
 /* **************** Functions **************** */
-const Header = ({ logo, title }) => <header className='App-header'></header>
+const Container = ({ children }) => {
+  return <div className='container'>{children}</div>
+}
 
 /* **************** Code Execution **************** */
-export default Header
+export default Container

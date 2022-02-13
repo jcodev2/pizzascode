@@ -1,7 +1,9 @@
 /* **************** Imports **************** */
 import React from 'react'
-import logo from './logo.svg'
-import Header from './components/Header'
+import logo from './assets/img/logo.png'
+import Header from './components/Header/Header'
+import Router from './components/Router'
+// import getImage from './utilities/functions/getImage'
 
 /* **************** Variables **************** */
 
@@ -9,7 +11,8 @@ import Header from './components/Header'
 function App() {
   return (
     <>
-      <Header logo={logo} title='React App' />
+      <Header logo={logo} title='Pizzas' />
+      <Router />
     </>
   )
 }
