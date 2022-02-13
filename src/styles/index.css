@@ -1,0 +1,26 @@
+/* **************** Fluid Text **************** */
+/* todo: https://utopia.fyi/type/calculator/ */
+:root {
+  /* ? Customize ? */
+  --step--2: clamp(0.74rem, 0.75rem + -0.05vw, 0.7rem);
+  --step--1: clamp(0.89rem, 0.87rem + 0.07vw, 0.94rem);
+  --step-0: clamp(1.06rem, 1.01rem + 0.25vw, 1.25rem);
+  --step-1: clamp(1.28rem, 1.17rem + 0.53vw, 1.67rem);
+  --step-2: clamp(1.53rem, 1.34rem + 0.94vw, 2.22rem);
+  --step-3: clamp(1.84rem, 1.53rem + 1.52vw, 2.96rem);
+  --step-4: clamp(2.2rem, 1.73rem + 2.36vw, 3.95rem);
+  --step-5: clamp(2.64rem, 1.93rem + 3.55vw, 5.26rem);
+}
+
+/* **************** Custom Properties **************** */
+:root {
+  --first-color: 3;
+}
+
+/* **************** Reset **************** */
+
+/* **************** Components **************** */
+
+/* **************** Utilities **************** */
+
+/* **************** Site Styles **************** */
