@@ -35,7 +35,7 @@ const Footer = () => {
             <Copyright />
           </li>
           <li>
-            ;<h5>Custom Hooks</h5>
+            <h5>Custom Hooks</h5>
             <Custom />
           </li>
           <li>
