@@ -8,7 +8,7 @@ const Card = ({ addres, description, image }) => {
   return (
     <div className='card'>
       <div className='card-image'>
-        <img src={image} alt='pizza' />
+        <img src={image} alt='pizza' loading='lazy' />
       </div>
       <div className='card-description'>
         <h3>{description}</h3>
