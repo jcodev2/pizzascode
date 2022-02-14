@@ -4,25 +4,25 @@
       "id": "1",
       "address": "Av. Juan Villareal",
       "description": "Near to the campus of the University of Buenos Aires",
-      "image": "/src/assets/img/location-image-1.jpg"
+      "image": "https://user-images.githubusercontent.com/72767265/153957934-1d978c7c-4d01-45db-8111-3804844a4bb1.jpg"
     },
     {
       "id": "2",
       "address": "Av. Paseo Colón",
       "description": "Near to the campus of the University of Buenos Aires",
-      "image": "/src/assets/img/location-image-2.jpg"
+      "image": "https://user-images.githubusercontent.com/72767265/153957943-2bc09ef0-6332-476e-a321-7e596ffa5417.jpg"
     },
     {
       "id": "3",
       "address": "Av. San Martín",
       "description": "Near to the campus of the University of Buenos Aires",
-      "image": "/src/assets/img/location-image-3.jpg"
+      "image": "https://user-images.githubusercontent.com/72767265/153957945-de2e65db-246e-45a8-b1cd-455e5a70121f.jpg"
     },
     {
       "id": "4",
       "address": "Av. Artigas",
       "description": "Near to the campus of the University of Buenos Aires",
-      "image": "/src/assets/img/location-image-4.jpg"
+      "image": "https://user-images.githubusercontent.com/72767265/153957949-184e0c38-5630-4195-bab4-04f734052669.jpg"
     }
   ]
 }
