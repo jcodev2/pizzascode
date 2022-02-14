@@ -73,6 +73,11 @@ ol {
   padding: 0;
   list-style: none;
 }
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 /* ? Links */
 a {
@@ -90,15 +95,79 @@ p {
 /* ? Card */
 .card {
   position: relative;
-  width: 300px;
+  min-width: 300px;
+  width: 400px;
+  height: 300px;
 }
-.card
+.card .card-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fefefe;
+}
+.card .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card .card-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+.card-description h3 {
+  font-size: var(--step-2);
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fff;
+}
+.card-description p {
+  font-size: var(--step-1);
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: right;
+}
 
 /* ? Container */
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 4rem 1rem;
+}
+
+/* ? Go Top */
+.go-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--button-color);
+  font-weight: 600;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+.go-top svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #fff;
+}
+.go-top.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 /* ? Hero Image */
@@ -246,17 +315,17 @@ p {
   gap: 1.25rem;
   flex-direction: column;
   color: #fff;
-  background-color: rgba(238, 238, 238, 0.25);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 0.75rem;
 }
 .hero-image-content h1 {
   font-size: var(--step-4);
   font-weight: 900;
-  color: #f5f5f5;
+  color: #fefefe;
 }
 .hero-image-content p {
   font-size: var(--step-2);
-  font-weight: 400;
+  font-weight: 600;
   color: #f5f5f5;
 }
 .hero-image-content button {
@@ -284,11 +353,14 @@ p {
   }
   .hero-image-content {
     top: 50%;
-    left: 1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 800px;
     padding: 1.5rem;
     align-items: center;
-    transform: translateY(-50%);
+    background-color: rgba(238, 238, 238, 0.1);
+    backdrop-filter: blur(4px);
+    /* transform: translateY(-50%); */
   }
 }
 
@@ -324,5 +396,109 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+/* ? Scroll Bar */
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+/* ? Footer */
+.footer {
+  width: 100%;
+  height: 350px;
+  background-color: var(--header-color);
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .footer-content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.footer .footer-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.footer hr {
+  width: 100%;
+  height: 1px;
+  background-color: var(--items-color);
+}
+
+/* ? Social Media */
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+  padding: 1rem 1.5rem;
+  gap: 1rem;
+}
+.social-media li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-media li h5 {
+  font-size: var(--step-1);
+  font-weight: 600;
+  color: #f5f5f5;
+}
+.social-media li svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+/* ? Copyright */
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+  padding: 1rem 1.5rem;
+  gap: 1rem;
+}
+.copyright li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright li h5 {
+  font-size: var(--step-1);
+  font-weight: 600;
+  color: #f5f5f5;
+}
+.copyright li svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+@media screen and (min-width: 48em) {
+  .social-media {
+    width: 40%;
+  }
+  .copyright {
+    width: 40%;
+  }
+  .footer hr {
+    display: none;
+  }
+  .footer {
+    height: 200px;
+  }
 }
