@@ -96,7 +96,7 @@ p {
 .card {
   position: relative;
   min-width: 300px;
-  width: 400px;
+  width: 500px;
   height: 300px;
 }
 .card .card-image {
@@ -138,7 +138,8 @@ p {
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 4rem 1rem;
+  padding: 2rem 1rem;
+  min-height: 100vh;
 }
 
 /* ? Go Top */
@@ -183,7 +184,28 @@ p {
   background-attachment: fixed;
 }
 
+/* ? Title and its Line */
+.title {
+  font-size: var(--step-4);
+  font-weight: 600;
+  color: var(--titles-color);
+}
+.line {
+  width: 75px;
+  height: 2px;
+  background-color: var(--hover-color);
+  margin-bottom: 1rem;
+}
+
 /* **************** Utilities **************** */
+/* ? Center */
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /* ? Fluid */
 .fluid-5 {
   font-size: var(--step-5);
@@ -374,17 +396,6 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-.location .title {
-  font-size: var(--step-4);
-  font-weight: 600;
-  color: var(--titles-color);
-}
-.location .line {
-  width: 75px;
-  height: 2px;
-  background-color: var(--hover-color);
-  margin-bottom: 1rem;
 }
 .location p {
   font-size: var(--step-2);
