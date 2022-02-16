@@ -97,6 +97,7 @@ p {
   position: relative;
   min-width: 300px;
   height: 300px;
+  width: 500px;
 }
 .card .card-image {
   position: relative;
