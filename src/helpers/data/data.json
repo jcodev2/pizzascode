@@ -27,7 +27,7 @@
       "name": "Pizza Margarita",
       "description": "Pizza with tomato sauce, mozzarella, basil and oregano",
       "price": "12.00",
-      "image": "https://user-images.githubusercontent.com/72767265/154364480-230919bf-1a5c-4884-bd0d-cdb834cea25b.jpg",
+      "image": "/src/assets/img/products/pizza-1.jpg",
       "category": "pizza",
       "rating": 4,
       "num_reviews": 12
@@ -37,7 +37,7 @@
       "name": "Pizza Napolitana",
       "description": "Delicious pizza with ham, mozzarella, tomato sauce and oregano",
       "price": "14.00",
-      "image": "https://user-images.githubusercontent.com/72767265/154364483-951e698f-79ca-4299-9ffa-ea16d6b62119.jpg",
+      "image": "/src/assets/img/products/pizza-2.jpg",
       "category": "pizza",
       "rating": 5,
       "num_reviews": 12
@@ -47,7 +47,7 @@
       "name": "Pizza Vegetariana",
       "description": "Pizza with chicken, hotdogs, mozzarella, tomato sauce, oregano, basil and one red pepper",
       "price": "16.00",
-      "image": "https://user-images.githubusercontent.com/72767265/154364486-eef1bd27-2f38-4914-8d94-daee6932d1c1.jpg",
+      "image": "/src/assets/img/products/pizza-3.jpg",
       "category": "pizza",
       "rating": 3,
       "num_reviews": 12
@@ -57,7 +57,7 @@
       "name": "Pizza Margarita",
       "description": "Pizza with tomato sauce, mozzarella, basil and oregano",
       "price": "12.00",
-      "image": "https://user-images.githubusercontent.com/72767265/154364489-8ed62b8f-7f44-468d-b481-74722b233cfe.jpg",
+      "image": "/src/assets/img/products/pizza-4.jpg",
       "category": "pizza",
       "rating": 4.5,
       "num_reviews": 12
@@ -67,7 +67,7 @@
       "name": "Pizza Napolitana",
       "description": "Delicious pizza with ham, mozzarella, tomato sauce and oregano",
       "price": "14.00",
-      "image": "https://user-images.githubusercontent.com/72767265/154364492-fcfb3adf-cda3-40c8-bdf7-1dd90d4088bf.jpg",
+      "image": "/src/assets/img/products/pizza-5.jpg",
       "category": "pizza",
       "rating": 4,
       "num_reviews": 12
@@ -77,7 +77,7 @@
       "name": "Pizza Vegetariana",
       "description": "Pizza with chicken, hotdogs, mozzarella, tomato sauce, oregano, basil and one red pepper",
       "price": "16.00",
-      "image": "https://user-images.githubusercontent.com/72767265/154364505-7ea7c428-cf8a-45e3-a903-35e298568c6b.jpg",
+      "image": "/src/assets/img/products/pizza-6.jpg",
       "category": "pizza",
       "rating": 4.5,
       "num_reviews": 12
@@ -87,7 +87,7 @@
       "name": "Pizza Margarita",
       "description": "Pizza with tomato sauce, mozzarella, basil and oregano",
       "price": "12.00",
-      "image": "https://user-images.githubusercontent.com/72767265/154364517-124169d5-bd01-4422-8f4a-b8e1f6d35ac8.jpg",
+      "image": "/src/assets/img/products/pizza-7.jpg",
       "category": "pizza",
       "rating": 4.5,
       "num_reviews": 12
@@ -97,7 +97,7 @@
       "name": "Pizza Napolitana",
       "description": "Delicious pizza with ham, mozzarella, tomato sauce and oregano",
       "price": "14.00",
-      "image": "https://user-images.githubusercontent.com/72767265/154364520-d7ae6dce-df51-48bd-b441-4b7458a2c4bd.jpg",
+      "image": "/src/assets/img/products/pizza-8.jpg",
       "category": "pizza",
       "rating": 4,
       "num_reviews": 12
@@ -107,7 +107,7 @@
       "name": "Pizza Vegetariana",
       "description": "Pizza with chicken, hotdogs, mozzarella, tomato sauce, oregano, basil and one red pepper",
       "price": "16.00",
-      "image": "https://user-images.githubusercontent.com/72767265/154364524-a8535efa-826a-4a5a-a7d7-3c459c5edd9e.jpg",
+      "image": "/src/assets/img/products/pizza-9.jpg",
       "category": "pizza",
       "rating": 4.5,
       "num_reviews": 12
@@ -117,7 +117,7 @@
       "name": "Pizza Vegetariana",
       "description": "Pizza with chicken, hotdogs, mozzarella, tomato sauce, oregano, basil and one red pepper",
       "price": "16.00",
-      "image": "https://user-images.githubusercontent.com/72767265/154364527-9ffa3cbe-cfe3-4dcd-abfe-7675a5cb74dd.jpg",
+      "image": "/src/assets/img/products/pizza-10.jpg",
       "category": "pizza",
       "rating": 4.5,
       "num_reviews": 12
