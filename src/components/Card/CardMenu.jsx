@@ -5,7 +5,7 @@ import React from 'react'
 
 /* **************** Functions **************** */
 const CardMenu = ({ name, description, price, image, rating }) => {
-  // console.table({ id, name, description, price, image, rating })
+  // console.table({ id, name, description, price, image, rating })9
 
   return (
     <>
