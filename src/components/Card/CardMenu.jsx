@@ -1,13 +1,12 @@
 /* **************** Imports **************** */
 import React from 'react'
+import { Link } from 'react-router-dom'
 import StarRating from '../Star/StarRating'
 
 /* **************** Variables **************** */
 
 /* **************** Functions **************** */
-const CardMenu = ({ name, description, price, image, rating }) => {
-  // console.table({ id, name, description, price, image, rating })9
-
+const CardMenu = ({ id, name, description, price, image, rating }) => {
   return (
     <div className='card-menu'>
       <div className='card-menu-image'>
@@ -27,6 +26,9 @@ const CardMenu = ({ name, description, price, image, rating }) => {
         <div className='card-menu-rating'>
           <p>Rating:</p>
           <StarRating rating={rating} />
+        </div>
+        <div className='card-menu-button'>
+          <Link to={`/menu/${id}`}>Order</Link>
         </div>
       </div>
     </div>
