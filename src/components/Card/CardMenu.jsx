@@ -7,6 +7,10 @@ import StarRating from '../Star/StarRating'
 
 /* **************** Functions **************** */
 const CardMenu = ({ id, name, description, price, image, rating }) => {
+  const goTop = () => {
+    window.scrollTo(0, 0)
+  }
+
   return (
     <div className='card-menu'>
       <div className='card-menu-image'>
@@ -28,7 +32,9 @@ const CardMenu = ({ id, name, description, price, image, rating }) => {
           <StarRating rating={rating} />
         </div>
         <div className='card-menu-button'>
-          <Link to={`/menu/${id}`}>Order</Link>
+          <Link to={`/menu/${id}`} onClick={goTop}>
+            Order
+          </Link>
         </div>
       </div>
     </div>

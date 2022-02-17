@@ -680,3 +680,117 @@ body::-webkit-scrollbar {
     height: 200px;
   }
 }
+
+/* ? Menu Pizza */
+.menu-pizza {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu-pizza .menu-pizza-image {
+  width: 100%;
+  height: 60%;
+  background-color: var(--header-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu-pizza .menu-pizza-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.menu-pizza .menu-pizza-content {
+  max-width: var(--max-width);
+  width: 100%;
+  height: 40%;
+  background-color: #fff;
+}
+.menu-pizza-content .menu-pizza-title {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.menu-pizza-content .menu-pizza-title h3 {
+  font-size: var(--step-2);
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--titles-color);
+}
+.menu-pizza-content .menu-pizza-description {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+}
+.menu-pizza-content .menu-pizza-description p {
+  font-size: var(--step-1);
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+.menu-pizza-content .menu-pizza-price {
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.menu-pizza-content .menu-pizza-price p {
+  font-size: var(--step-1);
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+.menu-pizza-content .menu-pizza-rating {
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.menu-pizza-content .menu-pizza-rating p {
+  font-size: var(--step-1);
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+.menu-pizza-content .menu-pizza-rating .rating {
+  font-weight: 600;
+  color: var(--hover-color);
+}
+
+/* ? Return Button */
+.return-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--titles-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.return-button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.return-button svg {
+  width: 16px;
+  height: 16px;
+  fill: #fff;
+}
