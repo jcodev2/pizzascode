@@ -18,11 +18,11 @@ const MenuPizza = () => {
   return (
     <>
       <div className='menu-pizza'>
-        <div className='return-button'>
-          <Link to='/menu'>
+        <Link to='/menu'>
+          <div className='return-button'>
             <ArrowLeft />
-          </Link>
-        </div>
+          </div>
+        </Link>
         <div className='menu-pizza-image'>
           <img src={getImage(`pizza-hd-${id}`)} alt={name} loading='lazy' />
         </div>

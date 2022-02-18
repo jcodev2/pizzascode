@@ -5,7 +5,7 @@ import React from 'react'
 
 /* **************** Functions **************** */
 const Container = ({ children }) => {
-  return <div className='container'>{children}</div>
+  return <div className='container center-flex-container'>{children}</div>
 }
 
 /* **************** Code Execution **************** */
