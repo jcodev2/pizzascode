@@ -98,7 +98,6 @@ p {
   position: relative;
   min-width: 300px;
   height: 300px;
-  width: 500px;
 }
 .card .card-image {
   position: relative;
@@ -134,6 +133,12 @@ p {
   line-height: 1.5;
   color: #fff;
   text-align: right;
+}
+
+@media screen and (min-width: 48em) {
+  .card {
+    width: 500px;
+  }
 }
 
 /* ? Card Menu */
