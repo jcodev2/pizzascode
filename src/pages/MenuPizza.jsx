@@ -5,6 +5,7 @@ import { Link, useParams } from 'react-router-dom'
 import getImage from '../utilities/functions/getImage'
 import StarRating from '../components/Star/StarRating'
 import ArrowLeft from '../components/SVG/ArrowLeft'
+import { Helmet } from 'react-helmet'
 
 /* **************** Variables **************** */
 
@@ -17,6 +18,10 @@ const MenuPizza = () => {
 
   return (
     <>
+      <Helmet>
+        <title>{name}</title>
+        <meta name='description' content={description} />
+      </Helmet>
       <div className='menu-pizza'>
         <Link to='/menu'>
           <div className='return-button'>

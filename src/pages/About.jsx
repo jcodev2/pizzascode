@@ -2,6 +2,7 @@
 import React from 'react'
 import Container from '../components/Container/Container'
 import getImage from '../utilities/functions/getImage'
+import { Helmet } from 'react-helmet'
 
 /* **************** Variables **************** */
 const memeBanner = getImage('meme-banner')
@@ -10,6 +11,9 @@ const memeBanner = getImage('meme-banner')
 const About = () => {
   return (
     <>
+      <Helmet>
+        <title>About | PizzasCode</title>
+      </Helmet>
       <div className='hero-image hero-image-about'>
         <div className='hero-image-overlay' />
       </div>

@@ -4,6 +4,7 @@ import CardMenu from '../components/Card/CardMenu'
 import Container from '../components/Container/Container'
 import data from '../helpers/data/data.json'
 import getImage from '../utilities/functions/getImage'
+import { Helmet } from 'react-helmet'
 
 /* **************** Variables **************** */
 const pizzasImage = {
@@ -25,6 +26,10 @@ const Menu = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Menu</title>
+        <meta name='description' content='Menu' />
+      </Helmet>
       <Container>
         <div className='center-flex'>
           <h2 className='title'>Menu</h2>
