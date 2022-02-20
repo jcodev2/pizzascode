@@ -14,6 +14,7 @@ const About = () => {
       <Helmet>
         <title>About | PizzasCode</title>
         <meta name='description' content='About page' />
+        <meta name='author' content='Jcode' />
       </Helmet>
       <div className='hero-image hero-image-about'>
         <div className='hero-image-overlay' />

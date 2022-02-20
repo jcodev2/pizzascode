@@ -20,6 +20,7 @@ const Contact = () => {
           name='keywords'
           content='contact, pizzas, code, pizza, pizza code, pizza code contact'
         />
+        <meta name='author' content='Jcode' />
       </Helmet>
       <Container>
         <h2 className='title'>Contact Us</h2>

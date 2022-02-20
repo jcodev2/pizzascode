@@ -29,6 +29,7 @@ const Menu = () => {
       <Helmet>
         <title>Menu</title>
         <meta name='description' content='Menu' />
+        <meta name='author' content='Jcode' />
       </Helmet>
       <Container>
         <div className='center-flex'>

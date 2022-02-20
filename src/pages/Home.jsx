@@ -26,9 +26,6 @@ const Home = () => {
         <meta name='description' content='Home page' />
         <meta name='keywords' content='Home, page' />
         <meta name='author' content='Jcode' />
-        <meta name='og:title' content='Home' />
-        <meta name='og:description' content='Home page' />
-        <meta name='og:image' content={locationImages[1]} />
       </Helmet>
       <HeroImage />
       <Container>

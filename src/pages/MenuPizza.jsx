@@ -20,6 +20,7 @@ const MenuPizza = () => {
     <>
       <Helmet>
         <title>{name}</title>
+        <meta name='author' content='Jcode' />
         <meta name='description' content={description} />
       </Helmet>
       <div className='menu-pizza'>
