@@ -30,6 +30,10 @@ const Menu = () => {
         <title>Menu</title>
         <meta name='description' content='Menu' />
         <meta name='author' content='Jcode' />
+        <meta
+          property='canonical'
+          content='https://pizzascode.vercel.app/#/menu'
+        />
       </Helmet>
       <Container>
         <div className='center-flex'>

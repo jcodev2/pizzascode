@@ -26,6 +26,7 @@ const Home = () => {
         <meta name='description' content='Home page' />
         <meta name='keywords' content='Home, page' />
         <meta name='author' content='Jcode' />
+        <meta property='canonical' content='https://pizzascode.vercel.app/#/' />
       </Helmet>
       <HeroImage />
       <Container>

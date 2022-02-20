@@ -15,6 +15,10 @@ const About = () => {
         <title>About | PizzasCode</title>
         <meta name='description' content='About page' />
         <meta name='author' content='Jcode' />
+        <meta
+          property='canonical'
+          content='https://pizzascode.vercel.app/#/about'
+        />
       </Helmet>
       <div className='hero-image hero-image-about'>
         <div className='hero-image-overlay' />

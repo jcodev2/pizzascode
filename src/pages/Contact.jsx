@@ -21,6 +21,10 @@ const Contact = () => {
           content='contact, pizzas, code, pizza, pizza code, pizza code contact'
         />
         <meta name='author' content='Jcode' />
+        <meta
+          property='canonical'
+          content='https://pizzascode.vercel.app/#/contact'
+        />
       </Helmet>
       <Container>
         <h2 className='title'>Contact Us</h2>
