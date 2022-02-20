@@ -26,7 +26,6 @@ const MenuPizza = () => {
           name='keywords'
           content='pizza, pizza delivery, pizza delivery in kiev, pizza delivery in kyiv, pizza delivery in ukraine, pizza delivery in ukr'
         />
-        <meta name='theme-color' content='#19282f' />
       </Helmet>
       <div className='menu-pizza'>
         <Link to='/menu'>
