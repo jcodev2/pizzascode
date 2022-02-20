@@ -5,28 +5,12 @@ import Footer from './components/Footer/Footer'
 import GoTop from './components/GoTop'
 import Header from './components/Header/Header'
 import Router from './components/Router'
-// import getImage from './utilities/functions/getImage'
+import goTop from './utilities/functions/goTop'
+import onScroll from './utilities/functions/onScroll'
 
 /* **************** Variables **************** */
 
 /* **************** Functions **************** */
-const onClick = () => {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  })
-}
-const onScroll = () => {
-  window.addEventListener('scroll', () => {
-    const scrollTop = window.scrollY
-    const goTop = document.querySelector('.go-top')
-    if (scrollTop > 100) {
-      goTop.classList.remove('hidden')
-    } else {
-      goTop.classList.add('hidden')
-    }
-  })
-}
 
 function App() {
   return (
@@ -36,7 +20,7 @@ function App() {
       {/* Routes */}
       <Router />
       {/* go top */}
-      <GoTop onClick={onClick} onScroll={onScroll} />
+      <GoTop onClick={goTop} onScroll={onScroll} />
       {/* Footer */}
       <Footer />
     </>
