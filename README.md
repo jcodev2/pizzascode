@@ -4,7 +4,7 @@
 
 - I'm a software developer, and I love to code.
 - This is my first project with React, and I'm very excited about it.
-- I'm currently learning [React Native](https://facebook.github.io/react-native/).
+- I'm currently learning [React](https://reactjs.org/).
 - I would like know what is your opinion about this project.
 - I hope you enjoy it ❤
 
