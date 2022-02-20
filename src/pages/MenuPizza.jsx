@@ -26,6 +26,7 @@ const MenuPizza = () => {
           name='keywords'
           content='pizza, pizza delivery, pizza delivery in kiev, pizza delivery in kyiv, pizza delivery in ukraine, pizza delivery in ukr'
         />
+        <meta property='canonical' content='https://pizzascode.vercel.app/#/' />
       </Helmet>
       <div className='menu-pizza'>
         <Link to='/menu'>
