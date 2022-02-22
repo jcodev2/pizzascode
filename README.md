@@ -45,6 +45,6 @@
 
 You can find the website here: [website](https://pizzascode.vercel.app/)
 
-### Thanks for reading!
+### Thanks for reading
 
 I love you all! <3
